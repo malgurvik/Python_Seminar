@@ -6,12 +6,12 @@
 # ":" S007 "}]
 # Output: {'S005', 'S002', 'S007', 'S001', 'S009'}
 
-list_dicts = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII": " S005 "}, {" V ": " S009 "},
-              {" VIII ": " S007 "}]
+list_dicts = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII": "S005"}, {"V": "S009"},
+              {"VIII": "S007"}]
 unique_values = set()
-for dicts in list_dicts:# проходим по спискам можества
-    for value in dicts.values(): #проходим по значениям списка
-        unique_values.add(value)#
+for dicts in list_dicts:  # проходим по спискам можества
+    for value in dicts.values():  # проходим по значениям списка
+        unique_values.add(value)
 # Output: {'S005', 'S002', 'S007', 'S001', 'S009'}
 print(unique_values)
 
