@@ -29,3 +29,17 @@ print(max_berry)
 #     arr_count.append(arr[i - 1] + arr[i] + arr[i + 1])
 # arr_count.append(arr[-2] + arr[-1] + arr[0])
 # print(max(arr_count)
+
+# import random
+#
+# bushes = [random.randint(1,15) for _ in range(10)]
+#
+# print(bushes)
+
+# max_berries = 0
+# for i in range(len(bushes)):
+#     total = bushes[i-2] + bushes[i-1] + bushes[i]
+#     if total > max_berries:
+#         max_berries = total
+#
+# print(max_berries)
